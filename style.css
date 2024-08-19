@@ -32,24 +32,30 @@ body{
     top:0;
     left:0;
     width: 100%;
+    /* box-shadow: 0px 150px 30px  rgba(0, 0, 0, 0.5); */
 
 }
 
 .btn-container{
     position: relative;
     width: 80%;
+    padding:50vp;
     
 }
 
 .btn{
     position: absolute;
-    bottom: -80px;
-    background-color: slateblue;
+    bottom: -120px;
+    background-color: rgb(239, 2, 10);
     color: white;
-    border: none;
-    padding: 10xp 20px;
-    border-radius: 5px;
+    border: 1px solid black;
+    padding:15px 30px;
+    font-size: 15px; 
+    font-weight: bold;
+    border-radius: 50px;
     cursor: pointer;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.1s ease;
 
 }
 
